@@ -3,8 +3,8 @@
 ## Getting Started
 1. Clone this repository.
 
-## Contributing
+## Contributing to subtree
 1. Create a new branch on this (`subtree-root`) repository for any changes.
-
-## Pushing relevant commits to subtree
-1. `git subtree --prefix=<folder_name> push <repository> <branch_name>`.
+2. Push any subtree related changes a new branch on a subtree (`subtree-child`) repository.
+  - `git subtree --prefix=<folder_name> push <repository> <branch_name>`
+  - `git subtree --prefix=subtree_child push https://github.com/ppak10/subtree-child.git enhancement/instructions`
